@@ -1,0 +1,26 @@
+form {
+    background-color: grey;
+    width: 5cm;
+    height: 5.5cm;
+}
+
+.campos {
+    color:darkblue;
+    background-color: lightblue;
+}
+
+#campo1 {
+    border: 1px solid green;
+}
+
+#campo2 {
+    border: 1px solid red;
+}
+
+#boton {
+    border: 2px solid black;
+    font-family: Arial;
+    color:white;
+    background-color: green;
+}
+

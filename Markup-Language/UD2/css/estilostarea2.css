@@ -1,0 +1,15 @@
+.links:link {
+    text-decoration:none;
+    color:blue;
+}
+
+.links:hover {
+    text-decoration:underline;
+    color:white;
+    background-color: black;
+}
+
+.links:visited {
+    text-decoration:none;
+    color: grey;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+Autor: Javier Baena Santa-Cruz
+IDE de desarrolo: NetBeans
+-->
+<html>
+    <head>
+        <title>Tarea2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="mailto:prueba@example.com" method="post" enctype="text/plain">
+        <input type="hidden" name="tipo" value="Formulario">            
+            
+            <p>
+            <fieldset style="height:50px; width:564px">
+                <legend>Datos personales:</legend>
+                <p>
+                Nombre:
+                <input type="text" name="Nombre" size="20">                    
+                Apellidos:
+                <input type="text" name="Apellidos" size="20">
+                </p>
+            </fieldset>
+            </p>
+        
+            <fieldset style="height:200px; width:150px">
+                <legend>Datos de pago:</legend>
+                    <table width="100%" align="left" border="0" cellspacing="0" cellpadding="0">
+                        <td>
+                            <fieldset style="height:150px; width:250px">                        
+                            <input type="radio" name="socio" value="No" checked>Efectivo
+                            </fieldset>
+                        </td>
+                    <td>
+                    <fieldset style="height:150px; width:250px">
+                        <input type="radio" name="tarjeta" value="Si" >Tarjeta
+                        <p>Número:</p>                   
+                        <input type="text" name="Numero" size="21">                   
+                        <p>Tipo:
+                            <select name="Tipo">
+                                <option>Visa</option>
+                                <option>Mastercard</option>
+                                <option>American Express</option>
+                            </select>
+                        </p>    
+                    </fieldset>   
+                    </td>
+                    </table>                                      
+            </fieldset>
+            <p>
+                <input type="submit" value="Enviar ">
+            </p>          
+        </form>
+        
+    </body>
+</html>
